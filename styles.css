@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Arial, Helvetica", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2ce97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: white;
+    width: 50rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    box-shadow: 15px 14px 20px 0px rgba(85, 85, 85, 0.48);}
+.cover {
+    background-color: #484956;
+    padding: 2rem 0 0 2rem;
+    color: white;
+}
+.cover h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.cover p {
+    font-size: 25px;
+}
+.red {
+    width: 3.5rem;
+    height: 3px;
+    background-color: rgb(223, 88, 88);
+    margin-top: 1rem;
+}
+.profile {
+    margin-top: 16rem;
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    box-shadow: 5px 5px 20px 0px rgba(24, 23, 24, 0.48);
+}
+.profile p {
+    font-size: 16px;
+    margin-left: 0.5rem;
+}
+.write_up {
+    line-height: 24px;
+    font-size: 16px;
+    /* margin-bottom: 5.5rem; */
+}
+.paragraph {
+    padding: 3rem 2rem 0;
+}
+.first_para {
+    margin-bottom: 1rem;
+}
+.first_para::first-letter {
+    font-size: 30px;
+    font-weight: 700;
+}
+.second_para {
+    margin-top: 1.5rem;
+}
+.footer {
+    width: 100%;
+    border-top: 2px solid #f7f7f7;
+    margin-top: 2rem;
+}
+.footer {
+    padding: 1.5rem 2rem 0;
+    display: flex;
+    /* align-items: center; */
+}
+.footer p:nth-child(1) {
+    flex-grow: 1;
+}
+.number {
+    padding: 0 1rem 0;
+    color: #d1cbcb;
+}
